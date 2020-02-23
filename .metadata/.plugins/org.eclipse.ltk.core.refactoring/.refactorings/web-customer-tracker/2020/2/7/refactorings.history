@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.luv2code.testfb&apos; to &apos;com.luv2code.testdb&apos;&#x0D;&#x0A;- Original project: &apos;web-customer-tracker&apos;&#x0D;&#x0A;- Original element: &apos;web-customer-tracker/src/com.luv2code.testfb&apos;&#x0D;&#x0A;- Renamed element: &apos;web-customer-tracker/src/com.luv2code.testdb&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.luv2code.testfb&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.luv2code.testfb" name="com.luv2code.testdb" qualified="false" references="true" stamp="1581437385086" textual="false" version="1.0"/>
+</session>

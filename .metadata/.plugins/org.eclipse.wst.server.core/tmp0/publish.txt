@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Sun Feb 23 21:47:13 IST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\AMEER\\Documents\\Spring\\Workspace\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.2.RELEASE.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE.jar

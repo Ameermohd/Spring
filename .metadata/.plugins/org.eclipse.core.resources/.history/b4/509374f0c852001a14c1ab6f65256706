@@ -1,0 +1,15 @@
+package com.luv2code.springdemo.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+import com.sun.istack.internal.logging.Logger;
+
+@Aspect
+@Component
+public class CRMLoggingAspect {
+	
+	public static Logger mylogger = Logger.getLogger(CRMLoggingAspect.class.getClass());
+
+}

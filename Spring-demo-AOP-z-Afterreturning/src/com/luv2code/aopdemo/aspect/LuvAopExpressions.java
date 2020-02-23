@@ -1,0 +1,35 @@
+package com.luv2code.aopdemo.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class LuvAopExpressions {
+	
+	/*@Before("execution(* com.luv2code.aopdemo.dao.*.*(..))")
+	//@Before("execution(* addAccount(..))")
+	//@Before("execution(* addAccount(com.luv2code.aopdemo.Account))")
+	//@Before("execution(* add*())")
+	//@Before("execution(public void com.luv2code.aopdemo.dao.AccountDAO.addAccount())")
+	public void beforeAddAdvice() {
+		System.out.println("====>>> Executing before advice");
+	}*/
+	
+	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.*(..))")
+	public void forDaopackage() {}
+	
+	//Pointcut for getters
+	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.get*(..)) )")
+	public void getter() {}
+	
+	//Pointcut for setters
+	@Pointcut("execution(* com.luv2code.aopdemo.dao.*.set*(..)) )")
+	public void setter() {}
+	
+	//combine pointcut: include package excelude getters and setters
+	@Pointcut("forDaopackage() && !(getter()||setter())")
+	public void forDaopackageNogettersetter() {}
+
+}

@@ -1,0 +1,27 @@
+package com.luv2code.springdemo.aspect;
+
+import org.aopalliance.intercept.Joinpoint;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+import com.sun.istack.internal.logging.Logger;
+
+@Aspect
+@Component
+public class CRMLoggingAspect extends AopExpressions {
+	
+	public static Logger mylogger = Logger.getLogger(CRMLoggingAspect.class.getClass());
+	
+	//@Before("com.luv2code.springdemo.aspect.AopExpressions.combinedexp()")
+	public void Beforeadvice(JoinPoint thejoinpoint, Object result) {
+		
+		String method = thejoinpoint.getSignature().getName();
+		
+		mylogger.info("=====>Excudting @Before advice Inside "+method);
+		
+	}
+
+}
