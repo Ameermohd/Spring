@@ -78,6 +78,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\AMEER\Documents\Spring\Workspace\solution-code-spring-security-demo-02-basic-security"/>
 			<item value="C:\Users\AMEER\Documents\Spring\spring-security-5-demo-starter\spring-security-demo-starter\spring-security-demo-01-base-app"/>
 			<item value="C:\Users\AMEER\Documents\Spring\solution-code-spring-security-demo-01-base-app\solution-code-spring-security-demo-01-base-app"/>
 		</list>

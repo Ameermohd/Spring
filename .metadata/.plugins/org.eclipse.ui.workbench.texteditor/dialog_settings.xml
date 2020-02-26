@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="mylogger.info"/>
+		<item key="selection" value="context"/>
 		<list key="findhistory">
+			<item value="context"/>
+			<item value="imeout"/>
+			<item value="tag"/>
 			<item value="System.out.println"/>
 			<item value="bndng"/>
 			<item value="o"/>
